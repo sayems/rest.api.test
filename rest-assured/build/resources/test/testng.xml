@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="POST Test Suite">
+    <parameter name="properties" value="src/test/resources/api.properties"/>
+    <test name="Send POST request" preserve-order="true">
+        <groups>
+            <run>
+                <include name="post"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.sayem.api.json.placeholder.Post">
+                <methods>
+                    <include name="postRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

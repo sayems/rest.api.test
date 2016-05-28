@@ -1,0 +1,37 @@
+apply plugin: 'maven'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+group = "org.sayem"
+version = '1.0'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            ['org.testng:testng:6.9.10'],
+            ['com.fasterxml.jackson.core:jackson-databind:2.7.4'],
+            ['com.fasterxml.jackson.core:jackson-core:2.7.4'],
+            ['com.google.code.gson:gson:2.6.2'],
+            ['org.codehaus.groovy:groovy-all:2.4.6'],
+            ['org.apache.commons:commons-lang3:3.4'],
+            ['joda-time:joda-time:2.9.4'],
+            ['org.glassfish:javax.json:1.0.4'],
+    )
+    compile(group: 'com.jayway.restassured', name: 'rest-assured', version: '2.9.0') {
+        exclude(module: 'groovy')
+    }
+    compile("org.uncommons:reportng:1.1.4") {
+        exclude group: "org.testng", module: "testng"
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.13'
+}
