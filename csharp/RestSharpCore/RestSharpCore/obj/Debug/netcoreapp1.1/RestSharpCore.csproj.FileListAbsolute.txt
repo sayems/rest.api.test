@@ -1,0 +1,12 @@
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\RestSharpCore.deps.json
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\RestSharpCore.dll
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\obj\Debug\netcoreapp1.1\RestSharpCore.csprojResolveAssemblyReference.cache
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\obj\Debug\netcoreapp1.1\RestSharpCore.AssemblyInfo.cs
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\RestSharpCore.runtimeconfig.json
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\RestSharpCore.runtimeconfig.dev.json
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\NUnit3.TestAdapter.dll
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\nunit.engine.netstandard.dll
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\Mono.Cecil.dll
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\bin\Debug\netcoreapp1.1\RestSharpCore.pdb
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\obj\Debug\netcoreapp1.1\RestSharpCore.dll
+C:\Users\Sayem\IdeaProjects\rest.api.test\csharp\RestSharpCore\RestSharpCore\obj\Debug\netcoreapp1.1\RestSharpCore.pdb

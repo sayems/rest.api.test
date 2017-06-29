@@ -1,0 +1,34 @@
+{
+  "name": "supertests",
+  "version": "1.0.0",
+  "description": "API Automation Framework in JavaScript with supertest library",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "latest",
+    "babel-eslint": "latest",
+    "babel-preset-es2015": "latest",
+    "chai": "latest",
+    "config": "latest",
+    "eslint": "latest",
+    "express": "latest",
+    "methods": "latest",
+    "mocha": "latest",
+    "node-uuid": "latest",
+    "selenium-webdriver": "latest",
+    "supertest": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "find ./spec -name '*test.js' | xargs mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayems/rest.api.test.git"
+  },
+  "author": "Syed Sayem",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sayems/rest.api.test/issues"
+  },
+  "homepage": "https://github.com/sayems/rest.api.test#readme"
+}
